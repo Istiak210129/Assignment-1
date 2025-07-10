@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    
+}
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -6,6 +9,11 @@
   font-style: normal;
 }
 
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 600px;
+   
+}
 .primary-btn{
     color: white;
     width: 130px;
@@ -14,11 +22,12 @@
     border: none;
     font-size: 16px;
     font-weight: bold;
+    padding:5px 10px;
 }
 .btn-color{
-    background-color: #4E47FF;
+    background-color: #4E47FF
 }
-.navbar{
+.common{
     max-width: 1140px;
     padding: 10px 100px;
 }
@@ -26,9 +35,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 
 .nav-logo{
     font-size: 35px;
     color: #4E47FF;
+}
+/* banner style */
+.banner-btn{
+    margin-top: 30px;
+}
+
+.banner{
+    width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 150px;
+
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.title-color{
+    color: #252432;
 }
