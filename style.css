@@ -60,6 +60,9 @@ header{
 }
 
 /* action style */
+main{
+    background-color: #F5F8FF;
+}
 .secondary-color{
     color: #0e07706b;
 }
@@ -110,7 +113,42 @@ header{
     justify-content: space-evenly;
     align-items: center;
 }
+.pro-info{
+    text-align: center;
+}
 .pro-para{
-    margin-top: 0px;
-    
+    margin-top: 0px;   
+}
+/* lets style */
+.lets-title{
+    width: 300px;
+}
+
+.lets-contain{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.input-form{
+    margin: 15px 0px;
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.txt-area{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0px;
+}
+.lets-heading{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.form-btn{
+    width: 280px;
+    height: 40px;
 }
