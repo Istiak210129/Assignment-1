@@ -14,6 +14,10 @@ header{
     height: 600px;
    
 }
+.primary-btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
 .primary-btn{
     color: white;
     width: 150px;
@@ -151,4 +155,29 @@ main{
 .form-btn{
     width: 280px;
     height: 40px;
+}
+
+/* footer style */
+
+ul li{
+    list-style: none;
+    display: inline;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #0e07706b;
+    margin-right: 15px;
+}
+.foot{
+    text-align: center;
+    width: 500px;
+    margin: 80px auto;
+}
+
+.foot-logo{
+    color: #4E47FF;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
