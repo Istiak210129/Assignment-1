@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0px;
     
 }
@@ -16,7 +16,7 @@ header{
 }
 .primary-btn{
     color: white;
-    width: 130px;
+    width: 150px;
     height: 48px;
     border-radius: 8px;
     border: none;
@@ -35,7 +35,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .nav-logo{
@@ -43,9 +43,6 @@ header{
     color: #4E47FF;
 }
 /* banner style */
-.banner-btn{
-    margin-top: 30px;
-}
 
 .banner{
     width: 800px;
@@ -60,4 +57,32 @@ header{
 }
 .title-color{
     color: #252432;
+}
+
+/* action style */
+.secondary-color{
+    color: #0e07706b;
+}
+.action{
+    height: 400px;
+}
+.action-container{
+    margin: 70px auto;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+
+    
+}
+.action-content{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+}
+.action-btn{
+    width:180px;
+}
+.action-pic{
+    height: 100%;
+    border-radius: 15px;
 }
