@@ -34,12 +34,15 @@ header{
 .common{
     max-width: 1140px;
     padding: 10px 170px;
+    
 }
 .nav-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px;
+     */
+     margin: 0 auto;
 }
 
 .nav-logo{
@@ -50,9 +53,9 @@ header{
 
 .banner{
     width: 800px;
-    margin: 0px auto;
+    margin: 150px auto;
     text-align: center;
-    margin-top: 150px;
+   
 
 }
 .banner-title{
@@ -104,6 +107,7 @@ main{
 .pro-content{
     background-color: #E5E7FF;
     border-radius: 15px;
+    margin: 0 auto;
 }
 .info-title{
     font-weight: bolder;
@@ -116,6 +120,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0 auto;
 }
 .pro-info{
     text-align: center;
@@ -132,8 +137,9 @@ main{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin-top: 90px;
-    margin-bottom: 20px;
+    /* margin-top: 90px;
+    margin-bottom: 20px; */
+    margin: 70px auto;
 }
 .input-form{
     margin: 15px 0px;
@@ -189,11 +195,13 @@ ul li a{
 .card-container{
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .review-title{
     text-align: center;
     font-size: 20px;
     font-weight: 900;
+    margin: 0 auto;
 }
 
 .card{
