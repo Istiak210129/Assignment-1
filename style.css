@@ -132,7 +132,8 @@ main{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 90px;
+    margin-bottom: 20px;
 }
 .input-form{
     margin: 15px 0px;
@@ -180,4 +181,46 @@ ul li a{
     font-size: 65px;
     font-weight: 900;
     margin-bottom: 5px;
+}
+/* card design */
+.Review{
+    margin-top: 90px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.review-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.card{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #FAFCFF;
+    padding: 10px;
+}
+
+.avatar-img{
+    border-radius: 50%;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card-para{
+    color: #0e077036;
+    margin: 0px;
+    padding: 0px;
+}
+.card-p{
+    margin: 0px;
+    padding: 0px;
+}
+.review-para{
+    font-weight: normal;
 }
